@@ -2,6 +2,9 @@
 
 This project is a simplified, educational implementation of an in-memory database inspired by Redis, built using Go. It demonstrates core database concepts like network communication, data parsing, command handling, and persistence.
 
+![image](https://github.com/user-attachments/assets/99c0ebac-e87e-45b5-a1a3-0ae8071cf48d)
+
+
 ## Features
 
 - **Basic Redis Command Support:**
@@ -17,6 +20,8 @@ This project is a simplified, educational implementation of an in-memory databas
   - Handles multiple client connections using Go routines.
   - The `main.go` file spawns a new goroutine for each incoming client connection, allowing the server to handle multiple clients concurrently.
 - **AOF Persistence:**
+![image](https://github.com/user-attachments/assets/d1230b38-8855-44b5-a0be-4d4b8739ffd0)
+
   - Implements Append Only File (AOF) persistence for data durability.
   - The `aof.go` file manages the AOF file, writing `SET` and `HSET` commands to the file.
   - On server startup, it reads the AOF file and replays the commands to restore the database state.

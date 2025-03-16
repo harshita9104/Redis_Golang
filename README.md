@@ -1,5 +1,7 @@
 # Simple Redis in Go
 
+https://harshita9104.medium.com/built-my-own-redis-cbbba57c0111
+
 This project is a simplified, educational implementation of an in-memory database inspired by Redis, built using Go. It demonstrates core database concepts like network communication, data parsing, command handling, and persistence.
 
 ![image](https://github.com/user-attachments/assets/99c0ebac-e87e-45b5-a1a3-0ae8071cf48d)
